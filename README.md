@@ -1,3 +1,13 @@
+
+### 如果发现不能拖动，写入ng-if="lists && lists.length>0"
+#### lists 是要循环的数据
+```
+<ks-swiper-container ng-if="lists && lists.length>0">
+</ks-swiper-container>
+```
+
+
+
 # angular-swiper
 Directive that wraps nolimits4web/swiper library for AngularJS.
 License: Apache
